@@ -1,0 +1,62 @@
+#board {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.letter-box {
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 4px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background: #c4e0f9;
+}
+
+.filled-box {
+  border: 2px solid black;
+  background: #c4e0f9;
+}
+
+.letter-row {
+  display: flex;
+}
+
+.keyboard-container {
+  margin: 20px auto;
+  max-width: fit-content;
+}
+
+.key {
+  font-size: 28px;
+  font-weight: 700;
+  padding: 7px;
+  margin: 2px 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: #9bbdf9;
+  border: 2px solid black;
+}
+.centered-key {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+  background: #2ec0f9;
+}
+
+h1{
+  text-align: center;
+  text-shadow: 1px 2px;
+}
+
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
